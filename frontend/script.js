@@ -5,7 +5,7 @@ const clearChat = document.querySelector("#clear-chat");
 const legacyInput = document.querySelector("#input");
 const legacyResponse = document.querySelector("#response");
 
-const apiUrl = "https://faq-flow-ai-using-rag-1.onrender.com/api/chat";
+const apiUrl = "/api/chat";
 
 async function askFaqFlow(query) {
   const response = await fetch(apiUrl, {
